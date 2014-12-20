@@ -1,0 +1,26 @@
+<html ng-app="app">
+
+<head>
+  <title>Restamaze</title>
+  <meta content="text/html" charset="utf8">
+  <script charset="utf-8" src="angular-scripts/angular.min.js"></script>
+  <script charset="utf-8" src="angular-scripts/angular-ui-router.min.js"></script>
+  <script charset="utf-8" src="scripts/main.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css" charset="utf-8" />
+  <link rel="stylesheet" href="css/restamaze.css" charset="utf-8" />
+  <link rel="stylesheet" href="css/font.css" charset="utf-8" />
+</head>
+
+<body>
+  <div class="container" ng-controller="navController">
+    <div ng-include="'views/navbar.html'"></div>
+    <div class="theme rounded-corners">
+      <div ui-view></div>
+      <div ng-include="'views/footer.html'" align="center"></div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

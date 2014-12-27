@@ -1,0 +1,21 @@
+body {
+  background-image: url("../images/wallpaper_dark.jpg");
+}
+.theme {
+  background-color: #b0c4de;
+}
+.rounded-corners {
+  border-radius: 10px;
+}
+h2 {
+  margin-left: 10px;
+}
+span {
+  margin-left: 10px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}

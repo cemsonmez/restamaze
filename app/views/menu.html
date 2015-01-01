@@ -1,1 +1,11 @@
-Menu page
+<div>
+  <table class="table" align="left">
+    <tr align="center">
+      <th ng-repeat="menuItem in menuItems" class="content-text"
+          style="font-size: 20px; text-align: center; display: inline-block;">
+        {{menuItem.name}}<br/><br/>
+        <img src="{{menuItem.menu_image}}" width="200" height="200" class="thumbnail"/>
+      </th>
+    </tr>
+  </table>
+</div>

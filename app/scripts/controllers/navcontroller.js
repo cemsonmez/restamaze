@@ -1,6 +1,6 @@
 var app = angular.module('app');
 
-app.controller('navController', function($scope) {
+app.controller('NavController', function($scope) {
   $scope.menuItems = [{
     name: 'About',
     url: 'about'

@@ -1,6 +1,6 @@
 var app = angular.module('app', ['ui.router']);
 
-app.config(function($stateProvider, $urlRouterProvider) {
+app.config(function ($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/about');
 
   $stateProvider.state('about', {
@@ -8,6 +8,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: 'views/about.html'
   }).state('menu', {
     url: '/menu',
-    templateUrl: 'views/menu.html'
+    templateUrl: 'views/menu.html',
+    controller: 'MenuController'
   });
 });

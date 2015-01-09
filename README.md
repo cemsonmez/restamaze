@@ -1,1 +1,1 @@
-Restamaze is an restaurant menu application
+Restamaze is a restaurant menu application

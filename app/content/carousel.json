@@ -1,0 +1,18 @@
+[
+  {
+    "image_id": 1,
+    "path": "images/carousel/carousel_1.jpg"
+  },
+  {
+    "image_id": 2,
+    "path": "images/carousel/carousel_2.jpg"
+  },
+  {
+    "image_id": 3,
+    "path": "images/carousel/carousel_3.jpg"
+  },
+  {
+    "image_id": 4,
+    "path": "images/carousel/carousel_4.jpg"
+  }
+]

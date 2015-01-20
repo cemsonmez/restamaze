@@ -4,8 +4,10 @@
 var app = angular.module('app');
 
 
-app.controller('MenuController', function ($scope, $http) {
-  $http.get('content/menu.json').success(function (data) {
+app.controller('MenuController', function ($scope, RestamazeFactory) {
+
+  RestamazeFactory.getMenuItems().then(function (data) {
     $scope.menuItems = data;
   });
+
 });

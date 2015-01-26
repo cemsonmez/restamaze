@@ -1,30 +1,30 @@
 [
   {
-    "name": "Appetizer",
+    "name": "menu.main.appetizer",
     "menu_image": "images/menu/appetizer/appetizer_main.jpg"
   },
   {
-    "name": "Pasta",
+    "name": "menu.main.pasta",
     "menu_image": "images/menu/pasta/pasta_main.jpg"
   },
   {
-    "name": "Pizza",
+    "name": "menu.main.pizza",
     "menu_image": "images/menu/pizza/pizza_main.jpg"
   },
   {
-    "name": "Salad",
+    "name": "menu.main.salad",
     "menu_image": "images/menu/salad/salad_main.jpg"
   },
   {
-    "name": "Dessert",
+    "name": "menu.main.dessert",
     "menu_image": "images/menu/dessert/dessert_main.jpg"
   },
   {
-    "name": "Wine",
+    "name": "menu.main.wine",
     "menu_image": "images/menu/wine/wine_main.jpg"
   },
   {
-    "name": "Beverage",
+    "name": "menu.main.beverage",
     "menu_image": "images/menu/beverage/beverage_main.jpg"
   }
 ]

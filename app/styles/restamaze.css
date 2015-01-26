@@ -26,5 +26,11 @@ span {
 
 .content-text {
   margin: 20px;
-  font-family: 'Lobster Two Italic';
+  font-family: 'Courgette', cursive;
+}
+
+#languagebar img {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
 }

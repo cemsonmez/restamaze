@@ -3,10 +3,15 @@
     <ul class="nav nav-pills pull-right">
       <li role="presentation" ng-repeat="menuItem in menuItems" style="padding: 10px">
         <a ui-sref="{{menuItem.url}}" class="btn btn-default" style="font-family: 'Questrial';font-size: 18px;">
-          {{menuItem.name}}
+          {{menuItem.name | translate}}
         </a>
       </li>
     </ul>
     <h2 class="text-muted" style="font-family: 'Lobster Two Italic'; color: #954121" ui-sref="about">RESTAMAZE</h2>
   </nav>
+</div>
+
+<div id="languagebar" class="btn-group content" role="group" aria-label="...">
+  <img src="images/english-icon.png" ng-click="changeLang('en_US');" title="English"/>
+  <img src="images/turkish-icon.png " ng-click="changeLang('tr_TR');" title="Türkçe"/>
 </div>
